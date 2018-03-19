@@ -26,12 +26,6 @@ public class Json {
         return jObject;
     }
 
-    public void printJson(JsonObject jsonObject) {
-        jsonObject.addProperty("Son", 12);
-        jsonObject.get("glosary");
-        System.out.println(jsonObject + "  " + jsonObject.get("Son"));
-    }
-
     public String objectToJson(Object obj, String url) {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
@@ -53,8 +47,13 @@ public class Json {
         BufferedReader bufferedReader = new BufferedReader(
                 new FileReader(url));
 
-        Hund obj = (Hund)gson.fromJson(bufferedReader, Hund.class);
-       return obj;
+        Hund obj = (Hund) gson.fromJson(bufferedReader, Hund.class);
+        return obj;
+    }
+
+    public JsonObject getJsonElement(String property){
+        JsonObject jobj = null;
+        return jobj;
     }
 
 }
