@@ -342,7 +342,7 @@ public class Tutor {
         System.out.println("Baum als Stringausgabe: " + tree.baumToString());
 
 /**
- * JsonObject
+ * JsonObject Beispiele
  */
         Json json = new Json();
         System.out.print(json.getClass().getName()+" :");
