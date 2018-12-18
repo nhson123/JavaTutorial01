@@ -13,3 +13,13 @@ C
 	log.txt.1,4\c\4c7275c8df08bd08ab9f61fee496a6f3d6c39cc0
 @
 txtFileSchreiben,9\1\91c75877163f95ebbb6e9b9a0fed1f96f5ca0d7a
+K
+src/klassen/Reflection.java,6\9\6955509d7fbc3dff9e8de5c1b13537f565e39da8
+J
+src/klassen/Json/Json.java,2\6\26c5aafe6609a491d7bc3c174142c147542960d7
+>
+src/Tutor.java,2\7\276f0d2ee4c3bd54c6c6f8618c094071f58d34ba
+K
+src/klassen/tiere/Hund.java,5\0\500c0d19ab4ba5188c4f1599c6fbc8bdebdae869
+K
+src/klassen/tiere/Tier.java,7\6\767e0b540cb56f54937d87fa9b71a7412b940581
